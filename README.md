@@ -30,17 +30,20 @@ A Spring Boot application to manage student records for an educational institute
 
 ## 🗂 Project Structure
 
-src/
-└── main/
-    ├── java/
-    │   └── com/example/studentmanagement/
-    │       ├── controller/
-    │       ├── service/
-    │       ├── repository/
-    │       └── entity/
-    └── resources/
-        ├── templates/students/
-        │   ├── list.html
-        │   ├── add.html
-        │   └── edit.html
-        ├── application.properties
+student-management/
+├── src/
+│ └── main/
+│ ├── java/com/example/studentmanagement/
+│ │ ├── controller/
+│ │ ├── entity/
+│ │ ├── repository/
+│ │ └── service/
+│ └── resources/
+│ ├── templates/students/
+│ │ ├── list.html
+│ │ ├── add.html
+│ │ └── edit.html
+│ ├── static/
+│ └── application.properties
+├── pom.xml
+└── README.md
